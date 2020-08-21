@@ -1,0 +1,6 @@
+chromedriver-binary==2.37.0
+selenium==2.53.6
+
+#needed for writing/reading to s3
+#boto3==1.6.18
+#botocore==1.9.18
