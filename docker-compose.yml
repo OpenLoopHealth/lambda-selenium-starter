@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  lambda:
+    build: .
+    environment:
+      - PYTHONPATH=/var/task/src:/var/task/lib
+      - PATH=/var/task/bin/chromedriver
+      - AWS_ACCESS_KEY_ID=AKIAYVLLNMO6ARQZHUFF
+      - AWS_SECRET_ACCESS_KEY=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
+      - EMAIL=christian@openloophealth.com
+      - PASSWORD=Welcome2020
+    volumes:
+      - ./src/:/var/task/src/
