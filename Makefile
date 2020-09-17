@@ -44,6 +44,3 @@ build-lambda-package: clean fetch-dependencies			## prepares zip archive for AWS
 	cd build; zip -9qr build.zip .
 	cp build/build.zip .
 	rm -rf build
-
-# To run, use AWS CLI:
-# aws lambda invoke --function-name Scrapers --invocation-type Event --payload '{ "state": "Georgia" }' --cli-binary-format raw-in-base64-out response.json

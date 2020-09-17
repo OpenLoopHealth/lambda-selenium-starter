@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  lambda:
+    build: .
+    environment:
+      - PYTHONPATH=/var/task/src:/var/task/lib
+      - PATH=/var/task/bin/chromedriver
+      - AWS_ACCESS_KEY_ID=yourAccessKeyID
+      - AWS_SECRET_ACCESS_KEY=yourSecretAcessKey
+    volumes:
+      - ./src/:/var/task/src/
