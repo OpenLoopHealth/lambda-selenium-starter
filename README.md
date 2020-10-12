@@ -1,7 +1,7 @@
 # Lambda Selenium Starter
 A simple starter for headless chrome + selenium webdriver in AWS Lambda using Python.
 
-Lambda Selenium Starter provides a framework for seamless development & deployment of web scrapers, for any webpage, to AWS Lambda. To dive right in, check out [Quick Start](#quick-start). Otherwise, visit the Wiki for a more detailed guide.
+Lambda Selenium Starter provides a framework for seamless development & deployment of web scrapers, for any webpage, to AWS Lambda. To dive right in, check out [Quick Start](#quick-start). Otherwise, visit the Wiki or [blog post](https://noahsb.github.io/selenium-on-aws-lambda) for a more detailed guide.
 
 ## How does it work?
 
@@ -56,7 +56,7 @@ Once you're ready to upload to AWS, do the following:
 
 ## Example
 
-To view what modifications a slightly larger web scraper might involve, check out this [gist](https://gist.github.com/noahsburroughs/37f5746ea55f0bc9a9228cea164fec52)
+To view what modifications a slightly larger web scraper might involve, check out this [gist](https://gist.github.com/noahsb/37f5746ea55f0bc9a9228cea164fec52)
 
 ## Shouts to
 * [PyChromeless](https://github.com/jairovadillo/pychromeless/)
