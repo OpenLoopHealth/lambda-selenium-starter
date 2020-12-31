@@ -7,4 +7,4 @@ Each example folder contains (and models the `src` folder):
 - `lambda_function.py`
 - `requirements.txt`
 
-Feel free to explore the explore the examples for inspiration and to understand what I full scale project might look like!
+Feel free to explore the examples for inspiration and/or to understand what a full scale project might look like!
